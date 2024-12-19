@@ -1,7 +1,6 @@
 # Yu-Gi-Oh! Simultaneous Equation Cannons Calculator
 
-This project provides a Python script to validate card combinations for Simultaneous Equation Cannons Calculator card effect. The script determines valid combinations of Fusion and Xyz monsters from the Extra Deck to meet specific activation conditions.
-
+This project provides a Python script to validate card combinations for Simultaneous Equation Cannons Calculator card effect. The script determines valid combinations of Fusion and Xyz monsters from the Extra Deck to meet the seccond effect condition.
 <br>
 <div align="center">
   <img src="https://static.wikia.nocookie.net/yugioh/images/2/2e/SimultaneousEquationCannons-LEDE-EN-C-1E.png/revision/latest?cb=20240429230120" alt="Yu-Gi-Oh Card" width="300">
