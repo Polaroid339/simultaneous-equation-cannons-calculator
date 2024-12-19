@@ -36,15 +36,16 @@ def display_results(combinations):
     :param combinations: List of valid combinations.
     """
     if combinations:
-        print("\nValid combinations to activate the effect:\n")
+        print("Valid combinations to activate the effect:\n")
         for fusion, xyz in combinations:
             print(f"- Banish: 2 Xyz (Class {xyz}), Fusion (Level {fusion})")
             print(f"  Return to Extra Deck: Xyz (Class {xyz}), Fusion (Level {fusion}), \n")
     else:
-        print("\nNo valid combinations found for the given requirements.")
+        print("No valid combinations found for the given requirements.\n")
 
 # Main loop
 clear_screen()
+print("Welcome to Simultaneous Equation Cannons Calculator\n")
 while True:
     try:
         # User input
