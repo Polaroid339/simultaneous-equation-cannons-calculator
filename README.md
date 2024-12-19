@@ -46,7 +46,7 @@ This project provides a Python script to validate card combinations for Simultan
 2. Run the script using Python:
    
    ```
-   python yugioh_card_logic.py
+   python calculator.py
    ```
 4. Follow the on-screen prompts to input the required values.
 5. View the results, showing valid combinations or an error message if none are found.
