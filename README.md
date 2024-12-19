@@ -51,7 +51,7 @@ This project provides a Python script to validate card combinations for Simultan
 4. Follow the on-screen prompts to input the required values.
 5. View the results, showing valid combinations or an error message if none are found.
 
-Or simply run the calculator.exe, but the program is based on my extra deck wich contain 1 Fusion monster from level 1 to 5, and 2 Xyz monster from class 2 to 6 each.
+Or simply run the calculator.exe, but the program is based on my extra deck which contain 1 Fusion monster from level 1 to 5, and 2 Xyz monster from class 2 to 6 each.
 
 ## Example
 ### Input:
