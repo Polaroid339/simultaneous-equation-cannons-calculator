@@ -13,7 +13,7 @@ def find_combinations(total_cards, opponent_value):
     """
     # Definition of monsters in the Extra Deck
     fusion_levels = [1, 2, 3, 4, 5]  # Levels of Fusion monsters (1 of each)
-    xyz_classes = [1, 2, 3, 4, 5]  # Classes of Xyz monsters (1 of each)
+    xyz_classes = [2, 3, 4, 5, 6]  # Classes of Xyz monsters (2 of each)
 
     # Generate all possible combinations of 1 Fusion and 2 Xyz monsters (with the same class)
     combinations = product(fusion_levels, xyz_classes)
