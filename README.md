@@ -87,8 +87,5 @@ flet pack main.py --name "Simultaneous Equation Cannons Calculator"
 - Ensure that the inputs provided are integers and correspond to valid game scenarios.
 - The script does not simulate gameplay; it only validates specific card logic.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Contribution
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
