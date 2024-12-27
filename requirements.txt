@@ -1,0 +1,2 @@
+flet==0.22.*
+itertools==0.1.2
