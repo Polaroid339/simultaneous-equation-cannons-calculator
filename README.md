@@ -76,7 +76,7 @@ Valid combinations to activate the effect:
 ## Customization
 You can modify the `fusion_levels` and `xyz_classes` lists in the script to match your deck's configuration.
 
-then build you app with 
+then build you app: 
 ```
 flet pack main.py --name "Simultaneous Equation Cannons Calculator"
 ```
