@@ -49,15 +49,17 @@ This project provides a Python script to validate card combinations for Simultan
    ```
    pip install -r requirements.txt
    ```
-2. Run the script:
+3. Run the script:
    
    ```
    flet run main.py
    ```
 4. Follow the on-screen prompts to input the required values.
 5. View the results, showing valid combinations or an error message if none are found.
-
-Or simply run the Simultaneous Equation Cannons Calculator.exe, but the program is based on my extra deck which contain 1 Fusion monster from level 1 to 5, and Xyz monsters from class 2 to 6, 2 of each.
+6. Build you app: 
+   ```
+   flet pack main.py --name "Simultaneous Equation Cannons Calculator"
+   ```
 
 ## Example
 ### Input:
