@@ -5,17 +5,17 @@ from itertools import product
 def find_combinations(total_cards, opponent_value):
     # Definition of monsters in the Extra Deck
     fusion_levels = [1, 2, 3, 4, 5]  # Levels of Fusion monsters (1 of each)
-    xyz_classes = [2, 3, 4, 5, 6]  # Classes of Xyz monsters (2 of each)
+    xyz_ranks = [2, 3, 4, 5, 6]  # Ranks of Xyz monsters (2 of each)
 
-    combinations = product(fusion_levels, xyz_classes)
+    combinations = product(fusion_levels, xyz_ranks)
 
     valid_combinations = []
-    for fusion_level, xyz_class in combinations:
+    for fusion_level, xyz_rank in combinations:
 
-        combined_total = fusion_level + 2 * xyz_class
+        combined_total = fusion_level + 2 * xyz_rank
         if combined_total == total_cards:
-            if fusion_level + xyz_class == opponent_value:
-                valid_combinations.append((fusion_level, xyz_class))
+            if fusion_level + xyz_rank == opponent_value:
+                valid_combinations.append((fusion_level, xyz_rank))
 
     return valid_combinations
 
@@ -38,8 +38,8 @@ def main(page: ft.Page):
             if combinations:
                 result.value = "\n".join(
                     [
-                        f"-Banish: 2 Xyz (Class {xyz}), Fusion (Level {fusion})\n"
-                        f"-Return to Extra Deck: Xyz (Class {xyz}), Fusion (Level {
+                        f"-Banish: 2 Xyz (Rank {xyz}), Fusion (Level {fusion})\n"
+                        f"-Return to Extra Deck: Xyz (Rank {xyz}), Fusion (Level {
                             fusion})"
                         for fusion, xyz in combinations
                     ]
@@ -64,7 +64,7 @@ def main(page: ft.Page):
         color="blue"
     )
     tf2 = ft.TextField(
-        label="Enter level/class of an opponent's monster",
+        label="Enter level/rank of an opponent's monster",
         keyboard_type="number",
         color="blue"
     )
