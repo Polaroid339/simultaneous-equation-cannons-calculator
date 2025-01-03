@@ -17,8 +17,8 @@ This project provides a Python script to validate card combinations for Simultan
 ## Features
 - Calculates valid combinations of monsters based on:
   - Total number of cards in play (hands and field).
-  - The level/class of an opponent's monster.
-- Ensures the Xyz monsters have the same class when banished.
+  - The level/rank of an opponent's monster.
+- Ensures the Xyz monsters have the same Rank when banished.
 - Displays detailed information about the combinations to assist with game strategy.
 - Provides a clear and interactive interface for input and results.
 
@@ -31,12 +31,12 @@ This project provides a Python script to validate card combinations for Simultan
 ## How It Works
 1. **Input Requirements:**
    - Total number of cards in play (both players' hands and field).
-   - Level or class of an opponent's monster.
+   - Level or Ranks of an opponent's monster.
 
 2. **Processing:**
-   - The script iterates over predefined levels of Fusion monsters and classes of Xyz monsters.
+   - The script iterates over predefined levels of Fusion monsters and Rank of Xyz monsters.
    - Validates combinations where:
-     - The sum of levels and classes matches the total number of cards.
+     - The sum of levels and Rankses matches the total number of cards.
      - The combination allows returning monsters to match the opponent's monster.
 
 3. **Output:**
@@ -65,18 +65,18 @@ This project provides a Python script to validate card combinations for Simultan
 ### Input:
 ```
 Enter the total number of cards in play: 10
-Enter the level/class of an opponent's monster: 7
+Enter the level/rank of an opponent's monster: 7
 ```
 ### Output:
 ```
 Valid combinations to activate the effect:
 
-- Banish: 2 Xyz (Class 3), Fusion (Level 4)
-- Return to Extra Deck: Xyz (Class 3), Fusion (Level 4)
+- Banish: 2 Xyz (Rank 3), Fusion (Level 4)
+- Return to Extra Deck: Xyz (Rank 3), Fusion (Level 4)
 ```
 
 ## Customization
-You can modify the `fusion_levels` and `xyz_classes` lists in the script to match your deck's configuration.
+You can modify the `fusion_levels` and `xyz_ranks` lists in the script to match your deck's configuration.
 
 then build you app: 
 ```
