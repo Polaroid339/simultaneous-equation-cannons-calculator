@@ -109,4 +109,4 @@ def main(page: ft.Page):
 
 ft.app(main)
 
-# flet pack main.py --name "Simultaneous Equation Cannons Calculator"
+# flet pack main.py --name "Simultaneous Equation Cannons Calculator" --icon "SEC.png"
